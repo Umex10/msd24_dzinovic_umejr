@@ -62,7 +62,9 @@ I am a passionate student at FH Joanneum, currently studying **Mobile Software D
 Feel free to connect with me or check out my other projects! 
 
 1. [Exercise1](exercise1.md)
-
+    *This includes some links and pictures as well as header. We trained our Markdown Syntax skills
+2. [Exercise2](exercise2.md)
+    *This includes some git commands with description, but also some pictures of git commands examples in the git bash CLI. 
 
 
 
