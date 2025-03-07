@@ -90,7 +90,41 @@ I will now ignore the folder ``/build``, since it was only needed for manually e
 
 ![Screenshot 2](resources\\images\\ex3_2.png)
 
+### Appendix
 
+Since i added the whole /src folder to repository, I forgot, that App.java was still inside it.
 
+So I commited and App.java was a part of the repository. 
+
+I've deleted App.java and used the following command:
+
+```
+git rm --cached src/App.java 
+```
+
+I did that also with AppTest.java
+
+```
+git rm --cached src/AppTest.java 
+```
+
+## New plugin in pom.xml with mainClass: Main
+
+Added following plugin: 
+
+```
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>3.0.0</version>
+    <configuration>
+        <mainClass>at.fhj.msd.Main</mainClass>
+    </configuration>
+</plugin>
+```
+
+Also added a new ``System.out.println()`` statement to Main.java
+
+![Screenshot](resources\\images\\ex3_3.png)
 
 
