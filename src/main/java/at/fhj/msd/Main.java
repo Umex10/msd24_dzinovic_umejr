@@ -16,6 +16,10 @@ public class Main {
 
         double resultMultiply = number.multiply(2.5, 3.0);
         System.out.println("MULTIPLY: " + resultMultiply);
+
+        System.out.println("");
+
+        System.out.println("Umejr Dzinovic");
     }
     
 }
