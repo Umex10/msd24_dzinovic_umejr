@@ -68,6 +68,8 @@ The universitys website: [FH](https://www.fh-joanneum.at)
     * This includes some links and pictures as well as header. We trained our Markdown Syntax skills
 2. [Exercise2](exercise2.md)
     * This includes some git commands with description, but also some pictures of git commands examples in the git bash CLI. 
+3. [Exercise3](exercise3.md)
+    * This includes my working flow with maven
 
 
 
