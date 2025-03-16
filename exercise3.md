@@ -125,6 +125,8 @@ Added following plugin:
 
 Also added a new ``System.out.println()`` statement to Main.java
 
+## Screenshot of gitbash with command ``mvn exec:java``
+
 ![Screenshot](resources\\images\\ex3_3.png)
 
 
