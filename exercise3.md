@@ -129,4 +129,14 @@ Also added a new ``System.out.println()`` statement to Main.java
 
 ![Screenshot](resources\\images\\ex3_3.png)
 
+I've already inserted a screenshot before this one, but I noticed that the screenshot doesn't look good. So I removed the ex3_3.png from repository and made a new Screenshot and added it to the repository.
+
+I've used following commands:
+
+```
+git rm --cached pfad/zum/ex3_3.png
+rm pfad/zum/ex3_3.png  #To delete the screenshot locally
+```
+    
+
 
