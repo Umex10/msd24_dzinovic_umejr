@@ -70,6 +70,8 @@ The universitys website: [FH](https://www.fh-joanneum.at)
     * This includes some git commands with description, but also some pictures of git commands examples in the git bash CLI. 
 3. [Exercise3](exercise3.md)
     * This includes my working flow with maven
+4. [Exercise4](exercise4.md)
+    * This includes some screenshots of Test cases
 
 
 
