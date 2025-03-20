@@ -62,8 +62,17 @@ This file lists the main test cases applied to the Calculator class. The test ca
   Input: `-4.0 * 0.0`  
   Expected result: `0.0`
 
-# Screenshot of Test Coverage Execution
+# Screenshots
+
+## Screenshot of Test Coverage Execution
 
 ![Screenshot](resources\\images\\ex4_1.png)
 
 Since CalculatorTest has an percentage of 100%, everything is fine. We need a high percentage and that's good!
+
+## Screenshot of n!
+
+![Screenshot2](resources\\images\\ex4_2.png)
+
+As you can see, the Test case with negative number worked, because I set the method in Calculator.java to `return 0`, if a negative number is given as Parameter.
+

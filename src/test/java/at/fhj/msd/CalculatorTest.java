@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
@@ -105,4 +106,26 @@ public class CalculatorTest {
         assertEquals(-0.0, calc.multiply(-4.0, 0.0));
     }
 
+     //? -------------------------- FACTORIAL --------------------------
+     
+     @Test
+     @Tag("positive")
+     @DisplayName("Testing factorial()") 
+     void testFactorial() {
+        assertEquals(120, calc.factorial(5));
+     }
+
+     @Test
+     @Tag("negative")
+     @DisplayName("Testing factorial() with negative number")
+     void testFactorialWithNegative() {
+        assertEquals(0, calc.factorial(-5));
+     }
+
+     @Test 
+     @Tag("zero")
+     @DisplayName("Testing factorial() with Zero")
+     void testFactorialWithZero(){
+        assertEquals(1, calc.factorial(0));
+     }
 }

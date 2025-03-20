@@ -23,4 +23,7 @@ public class Calculator {
 
     }
 
+    public int factorial(int n) {
+        return 0;
+    }
 }
