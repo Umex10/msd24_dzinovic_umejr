@@ -20,7 +20,7 @@ We needed to create a new Calculator.java file. I've added some basic arithmetic
 
 ### Second - Screenshot of complete folder
 
-![Screenshot](resources\\images\\ex3_1.png)
+![Screenshot](resources/images/ex3_1.png)
 
 
 ## New block in ***pom.xml***
@@ -88,7 +88,7 @@ I will now ignore the folder ``/build``, since it was only needed for manually e
 
 ## Screenshot of gitbash with command ``mvn compile``
 
-![Screenshot 2](resources\\images\\ex3_2.png)
+![Screenshot 2](resources/images/ex3_2.png)
 
 ### Appendix
 
@@ -127,7 +127,7 @@ Also added a new ``System.out.println()`` statement to Main.java
 
 ## Screenshot of gitbash with command ``mvn exec:java``
 
-![Screenshot](resources\\images\\ex3_3.png)
+![Screenshot](resources/images/ex3_3.png)
 
 I've already inserted a screenshot before this one, but I noticed that the screenshot doesn't look good. So I removed the ex3_3.png from repository and made a new Screenshot and added it to the repository.
 
