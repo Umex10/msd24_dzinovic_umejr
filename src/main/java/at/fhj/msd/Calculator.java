@@ -1,6 +1,10 @@
 package at.fhj.msd;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator {
+
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
 
     public double add(double number1, double number2) {
         return number1 + number2;
@@ -11,8 +15,12 @@ public class Calculator {
     }
 
     public double divide(double number1, double number2) throws ArithmeticException {
+        
+        logger.info("divide called with: number1=" + number1 + ", number2=" + number2);
+        
         if (number2 == 0) {
-            throw new ArithmeticException("Division by zero");
+            logger.error("Divison by 0!");
+            throw new ArithmeticException("Division can't be by zero");
         }
         return number1 / number2;
     }

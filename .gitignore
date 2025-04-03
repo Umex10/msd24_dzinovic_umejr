@@ -1,7 +1,7 @@
+# Pdf files
+
 *.html
 *.pdf
-
-
 
 
 # Compiled class file
@@ -9,6 +9,8 @@
 
 # Log file
 *.log
+logs/
+src/main/resources/log4j2.xml
 
 # BlueJ files
 *.ctxt
@@ -48,3 +50,6 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+
+
