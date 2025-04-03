@@ -73,6 +73,10 @@ The universitys website: [FH](https://www.fh-joanneum.at)
 4. [Exercise4](exercise4.md)
     * This includes some screenshots of Test cases
 
+## log4j2.xml.template
+1. [Log4j2.xml.template](src/main/resources/log4j2.xml.template)
+    * Template for Log4j2.xml
+
 
 
 
