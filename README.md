@@ -72,6 +72,8 @@ The universitys website: [FH](https://www.fh-joanneum.at)
     * This includes my working flow with maven
 4. [Exercise4](exercise4.md)
     * This includes some screenshots of Test cases
+5. [Exercise5](exercise5.md)
+    * Includes Questions with answers to those
 
 ## log4j2.xml.template
 1. [Log4j2.xml.template](src/main/resources/log4j2.xml.template)
