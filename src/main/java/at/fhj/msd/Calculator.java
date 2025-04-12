@@ -36,7 +36,6 @@ public class Calculator {
      * <li>add(7.0, 8.0) --> 15.0</li>
      * <li>add(-3.0, 4.0) --> 1.0</li>
      * </ul>
-     * <p>
      * @param number1 The first number
      * @param number2 The second number
      * @return The sum of <code>number1</code> and <code>number2</code>.
@@ -57,7 +56,6 @@ public class Calculator {
      * <li>minus(4.0, 4.0) --> 0.0</li>
      * <li>minus(8.0, 3.0) --> 5.0</li>
      * </ul>
-     * <p>
      * @param number1 the number from which <code>number2</code> will be
      * substracted
      * @param number2 the number to substract from <code>number1</code>
@@ -81,7 +79,6 @@ public class Calculator {
      * <li>divide(4.0, 2.0) --> 2.0</li>
      * <li>divide(-16.0, 4.0) --> -4.0</li>
      * </ul>
-     * <p>
      * @param number1 The number to be divided
      * @param number2 The number by which the first number is divided
      * @return The result of dividing <code>number1</code> by
@@ -112,7 +109,6 @@ public class Calculator {
      * <li>multiply(4.0, 4.0) --> 16.0</li>
      * <li>multiply(0.0, 4.0) --> 0.0</li>
      * </ul>
-     * <p>
      * @param number1 The first number
      * @param number2 The second number
      * @return The result of the multiplication of <code>number1</code> and
@@ -132,7 +128,6 @@ public class Calculator {
      * <li>factorial(5) --> (5 * 4 * 3 * 2 * 1) --> 120</li>
      * <li>factorial(0) --> (definition of 0!) --> 1</li>
      * </ul>
-     * <p>
      * @param n The number to calculate the factorial for! n must be >= 0
      * @return the factorial of <code>n</code>.
      */

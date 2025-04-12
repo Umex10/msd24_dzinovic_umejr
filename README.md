@@ -74,6 +74,8 @@ The universitys website: [FH](https://www.fh-joanneum.at)
     * This includes some screenshots of Test cases
 5. [Exercise5](exercise5.md)
     * Includes Questions with answers to those
+6. [Exercise6](exercise6.md)
+    * Includes Questions with answers to those --> mvn_site
 
 ## log4j2.xml.template
 1. [Log4j2.xml.template](src/main/resources/log4j2.xml.template)
